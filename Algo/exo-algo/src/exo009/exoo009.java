@@ -37,8 +37,7 @@ public class exoo009 {
                     fanta--;
                 } else {
                     System.out.println("Il n'y a plus de fanta dans la machine");
-                    break;
-                }
+                }break;
             default:
                 System.out.println("Le choix n'est pas valide");
                 break;
