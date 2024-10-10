@@ -2,7 +2,7 @@ package exosup02;
 
 import java.util.Scanner;
 
-public class exosup12 {
+public class exosup02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez entrer un nombre de lignes à afficher");
