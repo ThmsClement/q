@@ -1,5 +1,6 @@
 package exo17;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class exo17 {
@@ -46,3 +47,4 @@ public class exo17 {
         System.out.println("Merci, bonne journée");
     }
 }
+
