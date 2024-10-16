@@ -20,10 +20,11 @@ public class exosup01 {
                 find = true;
                     System.out.println("Bienvenu(e)");
             } else {
-            if ( numberTest > 1)
+            if ( numberTest > 0)
                 System.out.println("Il vous reste " + numberTest + " essais");
             else {
-                System.out.println("Il vous reste " + numberTest + " essai");
+                System.out.println("Votre compte est bloqué");
+
             }
 
             }

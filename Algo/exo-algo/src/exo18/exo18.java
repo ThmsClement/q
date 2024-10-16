@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class exo18 {
     public static void main(String[] args) {
         boolean autreCalcul = true;
+        Scanner sc = new Scanner(System.in);
         do {
             System.out.println("Veuillez choisir un nombre");
-            Scanner sc = new Scanner(System.in);
             String n1 = sc.nextLine();
             n1 = n1.replace(',', '.');
             boolean isNumber1Valid = true;
@@ -82,7 +82,9 @@ public class exo18 {
                                         System.out.println("Le choix n'est pas valide");
                                         break;
                                 }
+
                                 System.out.println("Voulez-vous faire un autre calcul ?");
+
                                 autreCalcul = Boolean.parseBoolean(sc.nextLine());
 
                             } else {

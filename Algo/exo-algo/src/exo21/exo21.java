@@ -8,13 +8,14 @@ public class exo21 {
         Random rand = new Random();
         int justePrix = rand.nextInt(99) + 1;
         int proposition = 0;
-        int numberProp = 1;
+        int numberProp = 0;
 
         do {
 
             System.out.println("Quel est votre proposition ?");
             proposition = Integer.parseInt(sc.nextLine());
 
+            numberProp++;
             if (proposition < justePrix) {
                 System.out.println("C'est plus!");
             } else if (proposition > justePrix) {
@@ -22,7 +23,6 @@ public class exo21 {
             } else {
                 System.out.println("C'est gagné!");
             }
-            numberProp++;
 
         } while (justePrix != proposition);
 
