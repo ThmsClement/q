@@ -107,3 +107,5 @@ public class exo18 {
         System.out.println("Bonne journée");
     }
 }
+
+
