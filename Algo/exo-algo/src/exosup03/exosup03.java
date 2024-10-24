@@ -11,6 +11,7 @@ public class exosup03 {
         String chaine = "a";
 
 
+
         while (i < 10) {
             System.out.println("Merci d'entrer un Entier");
             String entier = sc.nextLine();
