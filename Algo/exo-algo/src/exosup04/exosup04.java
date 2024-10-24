@@ -98,13 +98,4 @@ public class exosup04 {
         }
 
     }
-
-    public static boolean estEntier(String chaine) {
-        try {
-            Integer.parseInt(chaine);
-        } catch (NumberFormatException e) {
-            return false;
-        }
-        return true;
-    }
 }

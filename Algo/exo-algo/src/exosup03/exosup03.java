@@ -19,9 +19,7 @@ public class exosup03 {
             } else {
                 try {
                     tableau[i] = Integer.parseInt(entier);
-                    if (i <10){
-                        i++;
-                    }
+                    i++;
                 } catch (NumberFormatException e) {
                 }
             }
