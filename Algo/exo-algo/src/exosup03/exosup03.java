@@ -23,7 +23,6 @@ public class exosup03 {
                 } catch (NumberFormatException e) {
                 }
             }
-
         }
         i = 0;
         if (tableau[i] < tableau[i + 1]) {
